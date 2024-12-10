@@ -1,0 +1,177 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AquaPure Solutions</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            scroll-behavior: smooth;
+        }
+        .nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background: transparent;
+            border-bottom: 1px solid white;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 20px;
+            z-index: 1000;
+        }
+        .nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 16px;
+        }
+        .homepage {
+            background: url('/mnt/data/AE4D401A-2D2C-4EA8-B61C-30A5928AAD86.jpeg') no-repeat center center/cover;
+            height: 100vh;
+            color: white;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 20px;
+        }
+        .homepage h1 {
+            font-size: 3rem;
+            color: aqua;
+            text-transform: uppercase;
+        }
+        .homepage p {
+            margin: 10px 0;
+            font-size: 1.2rem;
+        }
+        .button {
+            border: 1px solid white;
+            padding: 10px 20px;
+            color: white;
+            background: transparent;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 20px;
+        }
+        .page-divider {
+            height: 2px;
+            background: white;
+        }
+        .solutions {
+            background-color: black;
+            color: white;
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .solutions h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+        .solution {
+            display: inline-block;
+            width: 30%;
+            margin: 20px;
+            padding: 20px;
+            border: 1px solid gray;
+            border-radius: 10px;
+            background-color: #222;
+        }
+        .impact, .shareholders {
+            background: url('/mnt/data/387107CF-B92C-42E5-88A8-08FEAB288F75.jpeg') no-repeat center center/cover;
+            color: white;
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .impact h2, .shareholders h2 {
+            color: aqua;
+            font-size: 2rem;
+        }
+        .impact p, .shareholders p {
+            margin: 20px 0;
+        }
+        .contact {
+            background: black;
+            color: white;
+            padding: 50px 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <div class="nav">
+        <img src="/mnt/data/03F66AF6-E391-41F1-A1D8-EF03DBCE3192.png" alt="Logo" style="height: 40px;">
+        <div>
+            <a href="#home">Home</a>
+            <a href="#about">About Us</a>
+            <a href="#contact">Contact Us</a>
+        </div>
+    </div>
+
+    <!-- Homepage Section -->
+    <section id="home" class="homepage">
+        <h1>Transforming Lives, One Drop at a Time</h1>
+        <p>At AquaPure Solutions, our mission is to transform lives by providing sustainable, innovative, and accessible clean water solutions to communities in need.</p>
+        <a href="#about" class="button">About Us</a>
+    </section>
+
+    <div class="page-divider"></div>
+
+    <!-- Solutions Section -->
+    <section id="about" class="solutions">
+        <h2>Our Solutions</h2>
+        <div class="solution">
+            <h3>Rainwater Harvesting</h3>
+            <p>What We Do: Build large-scale reservoirs and provide community-level storage tanks to capture and store rainwater during wet seasons.</p>
+            <p>Impact: Ensures year-round water supply for agriculture, drinking, and sanitation in water-scarce regions.</p>
+        </div>
+        <div class="solution">
+            <h3>Solar-Powered Desalination</h3>
+            <p>What We Do: Convert seawater into fresh drinking water using renewable solar energy.</p>
+            <p>Impact: A reliable and eco-friendly solution for coastal regions suffering from water shortages.</p>
+        </div>
+        <div class="solution">
+            <h3>Affordable Water Filtration Systems</h3>
+            <p>What We Do: Distribute portable filtration tools, such as filter straws and purification kits, to rural communities.</p>
+            <p>Impact: Provides immediate access to clean, safe drinking water, reducing waterborne diseases.</p>
+        </div>
+    </section>
+
+    <div class="page-divider"></div>
+
+    <!-- Impact Section -->
+    <section id="impact" class="impact">
+        <h2>Our Impact</h2>
+        <p>At AquaPure Solutions, we measure success by the lives we transform and the communities we empower. Here are some of the ways we are making a difference:</p>
+        <ul>
+            <li>15 Million People: Provided access to safe and clean water in Kenya by 2030.</li>
+            <li>40% Reduction in waterborne diseases in rural communities.</li>
+            <li>Increased agricultural productivity for 1 million farmers.</li>
+        </ul>
+    </section>
+
+    <div class="page-divider"></div>
+
+    <!-- Shareholders Section -->
+    <section id="shareholders" class="shareholders">
+        <h2>Our Shareholders</h2>
+        <p>Kenyan Government, Canadian Government, UNICEF, and more.</p>
+    </section>
+
+    <div class="page-divider"></div>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>Email: info@aquapuresolutions.com | Phone: +1-800-123-4567</p>
+    </section>
+
+</body>
+</html>
